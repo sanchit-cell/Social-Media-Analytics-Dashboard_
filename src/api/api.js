@@ -46,7 +46,7 @@
 // src/api/api.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080';
+const API_URL = 'https://social-media-analytics-new.onrender.com';
 
 export const getUsers = async () => {
   try {
