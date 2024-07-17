@@ -1,0 +1,46 @@
+/* src/components/PromotionCard.css */
+.promotion-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+    transition: transform 0.2s, box-shadow 0.2s;
+    flex: 1 1 200px;
+    max-width: 250px;
+  }
+  
+  .promotion-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .promotion-content {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .promotion-date {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .promotion-active {
+    font-size: 14px;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .promotion-active.active {
+    background-color: #28a745;
+  }
+  
+  .promotion-active.inactive {
+    background-color: #dc3545;
+  }
+  

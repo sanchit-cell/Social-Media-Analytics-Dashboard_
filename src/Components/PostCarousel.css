@@ -1,0 +1,21 @@
+/* src/components/PostCarousel.css */
+.post-carousel {
+    margin: 20px 400px;
+    
+  }
+  
+  .carousel .control-arrow,
+  .carousel.carousel-slider .control-arrow {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  .carousel .slide {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .post-slide {
+    max-width: 300px;
+    padding: 10px;
+  }
+  
