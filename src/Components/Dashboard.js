@@ -62,7 +62,7 @@ const Dashboard = () => {
     fetchUserPosts();
     fetchUserAds();
     fetchUserPromotions();
-  }, [user,userId,userPosts,userAds,userPromotions]);
+  }, [userId]);
 
   return (
     <>
